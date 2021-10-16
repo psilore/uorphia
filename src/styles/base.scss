@@ -88,8 +88,11 @@ footer {
   p {
     margin: 0.23em 0;
     color: rgb(40, 24, 92);
+    display: flex;
+    align-items: center;
   }
   a {
+    padding: 1.1rem;
     color: rgb(111, 97, 155);
   }
 }
