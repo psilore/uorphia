@@ -6,7 +6,7 @@
   </p>
 </h1>
 <p align="center">
-  Uorphia is a webpack app in which I learning web 3.0
+  Uorphia is a skeleton pwa webpack app using metamask.io onbording repository
 </p>
 
 ## Install

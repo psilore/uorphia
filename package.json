@@ -1,7 +1,7 @@
 {
   "name": "uorphia",
   "version": "1.0.0",
-  "description": "uorphia is a skelton pwa webpack app using metamask.io onbording repository",
+  "description": "uorphia is a skeleton pwa webpack app using metamask.io onbording repository",
   "scripts": {
     "check-eslint-config": "eslint --print-config .eslintrc | eslint-config-prettier-check",
     "check-stylelint-config": "stylelint-config-prettier-check",
