@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Uorphia - Example of web 3.0</title>
+    <link rel="shortcut icon" type="image/x-icon" href="<%=htmlWebpackPlugin.files.favicon%>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="home" href="/">
+          <img id="uorphia_one_tone_logo" alt="Uorphia small logotype" />
+          <div>Uorphia</div>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <img id="uorphia_logo" class="display-block margin-center" alt="Uorphia logotype" />
+        <h2 class="text-center">Uorphia</h2>
+        <p class="text-center">Example authentication with metamask</p>
+        <button>
+          <img id="metamask_logo" class="w32 margin-1" alt="metamask logotype" />
+          <span>Connect to Metamask</span>
+        </button>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Copyright © 2019
+        <a href="https://dunderburken.com" aria-label="A design service just for you"> <strong>Dunderburken.com</strong> </a
+        >. All rights reserved.
+      </p>
+    </footer>
+  </body>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker
+          .register('service-worker.js')
+          .then((registration) => {
+            console.log('Service Worker registered: ', registration);
+          })
+          .catch((registrationError) => {
+            console.error('Service Worker registration failed: ', registrationError);
+          });
+      });
+    }
+  </script>
+</html>

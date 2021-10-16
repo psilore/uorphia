@@ -1,0 +1,13 @@
+$backgroundColorDark: rgb(11 6 24);
+$backgroundColorLight: rgb(234, 239, 241);
+
+$fontLightColor: rgb(36, 38, 43);
+$fontDarkColor: rgb(222, 227, 240);
+$linkDarkColor: rgb(105, 211, 44);
+$linkLightColor: rgb(8, 25, 27);
+
+
+@mixin dark-gradient {
+  background: rgb(11,6,24);
+  background: linear-gradient(130deg, rgba(11,6,24,1) 0%, rgba(6,2,17,1) 100%);
+}

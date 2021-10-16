@@ -1,0 +1,172 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Metropolis-Regular', Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  color: $fontDarkColor;
+  @include dark-gradient;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 5rem 1fr 5rem;
+  &:before {
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: auto;
+    content: "";
+    background: url(../images/honey-right.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    max-width: 320px;
+    height: 100%;
+    z-index: -100;
+  }
+}
+
+header {
+  nav {
+    a {
+      margin: 0.9em 0;
+      padding: 0 0.9rem;
+      line-height: 1;
+      &.home {
+        display: flex;
+        align-items: center;
+        color: white;
+        font-weight: 600;
+        font-size: 1.7rem;
+      }
+    }
+    img {
+      width: 32px;
+      margin: 0 0.6rem 0 .6rem;
+    }
+  }
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100%;
+  align-items: center;
+  justify-items: center;
+}
+
+main {
+  overflow-y: scroll;
+  padding: 0 1rem;
+  margin: 1rem 0;
+  section {
+    img {
+      display: block;
+      max-width: 320px;
+    }
+    h1 {
+      margin: 0.67em 0 0.1rem;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  p {
+    margin: 0.23em 0;
+    color: rgb(40, 24, 92);
+  }
+  a {
+    color: rgb(111, 97, 155);
+  }
+}
+
+a {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-flex;
+  text-decoration: none;
+  color: $linkDarkColor;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  &.w32 {
+    width: 32px;
+  }
+}
+
+button {
+  display: flex;
+  align-items: center;
+  color: rgb(76, 249, 139);
+  background-color: #140c2a;
+  border-radius: 0.9rem;
+  padding: 0 1.5rem 0 0;
+  margin: 0.9rem auto 0;
+  font-weight: 600;
+  font-size: 1.3rem;
+  letter-spacing: -0.02853rem;
+  line-height: 1;
+  border: 0px solid transparent;
+  background: linear-gradient(135deg, #1d0d38 0%, #1a0b2c 100%);
+  box-shadow: rgb(0 0 0) 6px 2px 16px 0px, rgb(31 12 66 / 75%) -6px -2px 16px 0px;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus-visible {
+    outline: red auto 1rem;
+  }
+  &:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+  box-shadow: rgb(31, 12, 66, 75%) 5px 4px 16px 0px, rgb(0, 0, 0) 6px 2px 16px 0px;
+  }
+}
+
+@media (min-width: 761px) {
+  body {
+    &:after {
+      position: fixed;
+      top: auto;
+      bottom: 0;
+      left: auto;
+      right: 0;
+      content: "";
+      background: url(../images/honey-left.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      width: 100%;
+      max-width: 320px;
+      height: 100%;
+      z-index: -100;
+    }
+  }
+  img {
+    width: 256px;
+  }
+}
+
+@media (min-width: 992px) {
+  img {
+    width: 320px;
+  }
+}

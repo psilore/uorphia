@@ -1,0 +1,49 @@
+@font-face {
+  font-display: fallback;
+  font-family: 'Metropolis Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Metropolis-Regular.woff2') format('woff2'),
+       url('../fonts/Metropolis-Regular.woff') format('woff');
+}
+@font-face {
+  font-display: fallback;
+  font-family: 'Metropolis Semi-bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Metropolis-SemiBold.woff2') format('woff2'),
+       url('../fonts/Metropolis-SemiBold.woff') format('woff');
+}
+@font-face {
+  font-display: fallback;
+  font-family: 'Metropolis Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Metropolis-Bold.woff2') format('woff2'),
+       url('../fonts/Metropolis-Bold.woff') format('woff');
+}
+@font-face {
+  font-display: fallback;
+  font-family: 'Metropolis Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Metropolis-Thin.woff2') format('woff2'),
+       url('../fonts/Metropolis-Thin.woff') format('woff');
+}
+@font-face {
+  font-display: fallback;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/quicksand-v19-latin-regular.woff2') format('woff2'),
+       url('../fonts/quicksand-v19-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: 'Quicksand Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/quicksand-v19-latin-600.woff2') format('woff2'),
+       url('../fonts/quicksand-v19-latin-600.woff') format('woff');
+}

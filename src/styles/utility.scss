@@ -1,0 +1,47 @@
+.d-flex {
+  display: flex;
+}
+
+.flex-start {
+  align-items: flex-start;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-space-arround {
+  justify-content: space-around;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.center {
+  display: inline-flex;
+  align-items: center;
+}
+
+.margin-center {
+  margin: 0 auto;
+}
+
+.margin-1 {
+  margin: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}

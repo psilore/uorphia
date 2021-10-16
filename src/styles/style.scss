@@ -1,0 +1,28 @@
+@import '~normalize.css/normalize.css';
+@import './variables';
+@import './fonts';
+@import './utility';
+@import './typography';
+@import './base';
+
+html {
+  height: 100%;
+  font-size: 87.5%;
+}
+
+body {
+  min-height: 100vh;
+
+  footer {
+  }
+
+  header {
+  }
+
+  main {
+  }
+
+  main,
+  footer {
+  }
+}
