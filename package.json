@@ -15,10 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/psilore/uorphia"
   },
   "author": "Erik Emmerfors",
-  "license": "GNU",
+  "license": "GPL-3.0 License",
   "homepage": "https://uorphia.dunderburken.com",
   "dependencies": {
     "@babel/core": "^7.15.8",
