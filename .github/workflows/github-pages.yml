@@ -15,7 +15,9 @@ jobs:
       with:
         node-version: '14'
     - run: yarn
-    - run: yarn run build:prod
+    - run: |
+        yarn run build:prod
+        ls -la
     - name: Init new repo in dist folder and commit generated files
       run: |
         cd docs/src/dist
