@@ -13,19 +13,19 @@
   <img src="/src/images/uorphia-screenshot.png" alt="Logo" width="100%" height="100%">
 </p>
 
-## Install
+## 🧶 Install
 
 ```sh
 yarn
 ```
 
-## Usage
+## 🧶 Serve files to be viewed at [http://localhost:8080/](http://localhost:8080/)
 
 ```sh
 yarn serve
 ```
 
-## Build distributable files, path `/dist`
+## 🔧 Build distributable files, path `/dist`
 
 ```sh
 yarn build:prod
