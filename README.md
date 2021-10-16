@@ -1,7 +1,7 @@
 <br />
 <h1>
   <p align="center">
-    <img src="uorphia-logo.png" alt="Logo" width="128" height="128">
+    <img src="/src/images/uorphia-base.png" alt="Logo" width="128" height="128">
   <br>Uorphia
   </p>
 </h1>
