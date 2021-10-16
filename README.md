@@ -19,7 +19,7 @@
 
 ## 🎁 Demo [https://psilore.github.io/uorphia/](https://psilore.github.io/uorphia/)
 
-## [Current stats](https://pagespeed-insights.herokuapp.com?url=https://psilore.github.io/uorphia)
+## [Current stats in lighthouse](https://pagespeed-insights.herokuapp.com?url=https://psilore.github.io/uorphia)
 
 [![Accessibility](/src/images/lighthouse_accessibility.svg)](/src/images/lighthouse_accessibility.svg) [![Performance](/src/images/lighthouse_performance.svg)](/src/images/lighthouse_performance.svg) [![Best Practices](/src/images/lighthouse_best-practices.svg)](/src/images/lighthouse_best_practices.svg) [![SEO](/src/images/lighthouse_seo.svg)](/src/images/lighthouse_seo.svg) [![SEO](/src/images/lighthouse_pwa.svg)](/src/images/lighthouse_seo.svg)
 
