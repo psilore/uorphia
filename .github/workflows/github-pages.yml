@@ -20,7 +20,7 @@ jobs:
         ls -la
     - name: Init new repo in dist folder and commit generated files
       run: |
-        cd docs/src/dist
+        cd /dist
         git init
         git add -A
         git config --local user.email "action@github.com"
@@ -38,4 +38,4 @@ jobs:
         force: true
         # We have to push from the folder where files were generated.
         # Same were the new repo was initialized in the previous step
-        directory: ./docs/src/dist
+        directory: ./docs/dist
