@@ -8,9 +8,9 @@
 <p align="center">
   Uorphia is a skeleton pwa webpack app using metamask.io onbording repository
 </p>
-<p align="center">
-  [![Deploy to GitHub pages](https://github.com/psilore/uorphia/actions/workflows/github-pages.yml/badge.svg)](https://github.com/psilore/uorphia/actions/workflows/github-pages.yml)
-</p>
+
+[![Deploy to GitHub pages](https://github.com/psilore/uorphia/actions/workflows/github-pages.yml/badge.svg)](https://github.com/psilore/uorphia/actions/workflows/github-pages.yml)
+
 
 <p align="center">
   <img src="/src/images/uorphia-screenshot.png" alt="Logo" width="100%" height="100%">
