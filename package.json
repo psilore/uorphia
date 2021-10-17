@@ -18,7 +18,7 @@
     "url": "https://github.com/psilore/uorphia"
   },
   "author": "Erik Emmerfors",
-  "license": "GPL-3.0 License",
+  "license": "GPL-3.0-only",
   "homepage": "https://uorphia.dunderburken.com",
   "dependencies": {
     "@babel/core": "^7.15.8",
